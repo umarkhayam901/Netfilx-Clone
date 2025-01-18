@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 1%;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin-top: 5px;
+}
+#main{
+    height: 750px;
+    width: 100%;
+    background-image:radial-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),url(./images/netflix\ background\ image.jpg);
+    background-position: ;
+    background-size: cover;
+}
+.img-logo{
+    width: 15%;
+}
+.sign-btn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #e50914;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+    border-style: none;
+}
+.sign-btn:hover{
+    background-color:#C11119;
+}
+#container{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    font-family:   Arial, Helvetica, sans-serif;
+}
+.para h1{
+    font-size:3.2em;
+    font-weight:900;
+}
+.para h4{
+    font-size: 1.4em;
+    font-weight: 200;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para h6{
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 30px;
+    color: #F4F4F3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para1{
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+#email-address{
+    width: 350px;
+    height: fit-content;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.started-btn{
+    width: 200px;
+    padding: 20px 10px;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: large;
+}
+.started-btn:hover{
+    background-color: #C11119;
+}
+#para2{
+    width: 100%;
+    height: 500px;
+    background-color:black;
+}
+.box{
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+    background-color: ;
+}
+.box h1{
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: white;   
+    padding-top: 20px;
+}
+#select1{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+#select2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+#card{
+    width: 1400px;
+    height: 300px;
+    background-color: #0c0b0b;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1{
+    width: 200px;
+    height: 300px;
+    margin-top: 30px;
+    border:2px,5px solid white;
+    border-radius: 10px;
+}
+.card-1 img{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+.card-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#container-1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+#container-1 h1{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px; 
+}
+.card-2{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px 2px  rgb(78, 75, 74); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-2 h2{
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.card-2 h5{
+    font-family: sans-serif;
+    color: #B0AFB8;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: large;
+    line-height: 30px;
+}
+.card-2 img{
+    width: 120px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.card-2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#box-1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+}
+.heading{
+    padding-top: 15px;
+    margin-left: 50px;
+    color: #B0AFB8;
+    font-family: sans-serif;
+}
+.para3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-3{
+    width: 200px;
+    height: 250px;
+    background-color: ;
+    color: #B0AFB8;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 20px;
+}
+#khan{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    background-color:black;
+}
